@@ -1,13 +1,51 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&display=swap");
+:root {
+  --primaryColor: #d71058;
+  --secondColor: #e9f1ff;
+  --thirdColor: #fff5f8;
+  --statisticColor: #ffe1ec;
+  --section_bg: rgba(215, 16, 88, 0.1);
+  --links_color: #35548e;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: #070707;
+  --titleFont: "Cairo", sans-serif;
+  --otherFont: "Cairo", sans-serif;
+  --mainTransition: all 0.5s ease;
+  --mainSpacing: 0.25rem;
+  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+}
+*,
+::before,
+::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--otherFont);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
 }
+
+body {
+  font-family: var(--otherFont);
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  font-size: 1.8rem;
+  line-height: 1.4;
+  user-select: none;
+}
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+.F img
+{
+  cursor: pointer;
+}
+
