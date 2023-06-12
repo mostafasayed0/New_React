@@ -25,6 +25,17 @@ import Mpop from '../modal/Mpop';
 
 
 class N9dar extends Component {
+    sec1=[
+        {imgsrc:img1,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img2,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img3,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img4,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img5,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img6,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img7,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img8,text:'Lorem ipsum dolor sit amet.'},
+        {imgsrc:img9,text:'Lorem ipsum dolor sit amet.'},
+    ];
     render() {
         return (
             <>
@@ -36,63 +47,18 @@ class N9dar extends Component {
             <section >
                 <div className="F container">
                     <div className="row">
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img  className=' w-100' src={img1} alt="pho"/>
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
+                        {this.sec1.map((value,index)=>{
+                            return(
+                            <div key={index} className="col-lg-4">
+                                <div className="item text-center">
+                                <img  className=' w-100' src={value.imgsrc} alt="pho"/>
+                                <p className={styles.par_bg}>{value.text}</p>
                             </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img2} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img3} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img4} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img5} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img6} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img7} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img8} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        <div className="col-lg-4">
-                            <div className="item text-center">
-                                <img className=' w-100' src={img9} alt="pho" />
-                                <p className={styles.par_bg}>Lorem ipsum dolor sit amet.</p>
-                            </div>
-                        </div>
-                        </div>                        
+                            </div> 
+                            )
+                        })}
                     </div>
-                    
+                </div>
                 </section>
             
             <section>
