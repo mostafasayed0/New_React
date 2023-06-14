@@ -2,13 +2,13 @@ import React, { Component } from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import img1 from '../../Images/A1.png'
-import img2 from '../../Images/A2.png'
-import img3 from '../../Images/A4.png'
-import img4 from '../../Images/A5.png'
+import said from '../../Images/A1.png'
+import Sami from '../../Images/A2.png'
+import Océane from '../../Images/A4.png'
+import hind from '../../Images/A5.png'
 import styles from '../Slider/Slider.module.css'
 
-export default class Rtl extends Component {
+export default class InstructorSlider extends Component {
   render() {
     var settings = {
       dots: true,
@@ -47,14 +47,14 @@ export default class Rtl extends Component {
     return (
       <>
     <div className={styles.card_slider}>
-                <Slider {...settings}>
-                    <div className={styles.one}>
-                          <img className='w-50 rounded-circle mx-auto' src={img1} alt="pho" />
+        <Slider {...settings}>
+            <div className={styles.cardOne}>
+                          <img className='w-50 rounded-circle mx-auto' src={said} alt="photos" />
                           <h2>Said</h2>
                           <h5>First lesson free</h5>
                           <h6>$20/hou</h6>
                           <h5>soutien scolaire et aide au devoir...</h5>
-                          <div className={styles.shad}>
+                          <div className={styles.cardText}>
                               I am a PhD student in Physics.
                               I am available to provide tutoring in English, Chemistry, Mathematics, and Physics.
                           </div>
@@ -62,47 +62,44 @@ export default class Rtl extends Component {
                           <h6>Travels to your location</h6>
                     
                     </div>
-                    <div className={styles.two}>
-                          <img className='w-50 rounded-circle mx-auto' src={img4} alt="pho" />
+                    <div className={styles.cardTwo}>
+                          <img className='w-50 rounded-circle mx-auto' src={hind} alt="pho" />
                           <h2>Hind</h2>
                           <h5>First lesson free</h5>
                           <h6>$20/hou</h6>
                           <h5>soutien scolaire et aide au devoir...</h5>
-                          <div className={styles.shad}>
+                          <div className={styles.cardText}>
                               I am a PhD student in Physics.
                               I am available to provide tutoring in English, Chemistry, Mathematics, and Physics.
                           </div>
-
                               <h6>Bordeaux, Toulouse</h6>
                               <h6>Distance learning</h6>
                         </div>
 
-                        <div className={styles.one}>
-                            <img className='w-50 rounded-circle mx-auto' src={img2} alt="pho" />
+                        <div className={styles.cardOne}>
+                            <img className='w-50 rounded-circle mx-auto' src={Sami} alt="pho" />
                             <h2>Sami</h2>
                             <h5>First lesson free</h5>
                             <h6>$20/hou</h6>
                             <h5>soutien scolaire et aide au devoir...</h5>
-                            <div className={styles.shad}>
+                            <div className={styles.cardText}>
                                 I am a PhD student in Physics.
                                 I am available to provide tutoring in English, Chemistry, Mathematics, and Physics.
                             </div>
-
                             <h6>Rabat</h6>
                             <h6>Travels to your location</h6>
                         </div>
 
-                        <div className={styles.two}>
-                              <img className='w-50 rounded-circle mx-auto' src={img3} alt="pho" />
+                        <div className={styles.cardTwo}>
+                              <img className='w-50 rounded-circle mx-auto' src={Océane} alt="pho" />
                               <h2>Océane</h2>
                               <h5>First lesson free</h5>
                               <h6>$20/hou</h6>
                               <h5>soutien scolaire et aide au devoir...</h5>
-                              <div className={styles.shad}>
+                              <div className={styles.cardText}>
                                   I am a PhD student in Physics.
                                   I am available to provide tutoring in English, Chemistry, Mathematics, and Physics.
                               </div>
-
                               <h6>Casablanca</h6>
                               <h6>In-person classes</h6>
                         </div>

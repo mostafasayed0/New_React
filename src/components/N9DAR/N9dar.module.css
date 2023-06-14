@@ -1,75 +1,97 @@
+/*Section one style */
 
-.spa{
+.H_span{
     color:var(--primaryColor);
 }
-.h
+.title
 {
     color: var(--links_color);
     font-family: var(--titleFont);
 }
-.par_bg{
+.ImageParagraph{
     background-color: var(--offWhite);
     padding: 3px;
     margin-top: 5px;
 }
-.he
+
+/*  Section two style */
+
+.SectionTwo {
+    background-color: var(--offWhite);
+}
+
+.SectionH2
 {
     color: var(--primaryColor);
 }
-.l
+.Sec2List
 {
     font-size: 22px;
     margin-top: 15px;
     font-weight: 500;
 }
 
-.two
+/* Section three style */
+
+.SectionThree
 {
     background-color: var(--thirdColor);
     margin-top: 30px;
 }
-.x {
-    font-size: 25px;
-    margin-top: 15px;
-    font-weight: bold;
-}
-.sp{
+.Section_H4 {
     text-align: center;
     color: var(--primaryColor);
     font-weight: bolder;
 }
-.one
+.Sec3List {
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+
+/* Pay Div */
+
+.payment
 {
     background-color:var(--statisticColor) ;
     text-align: center;
     margin-top: 10px;
     
 }
-.three
+.payment_Span
 {
-    background-color:var(--offWhite);
+    color:var(--primaryColor);
 }
-.fath{
+
+.paymentImages{
     width: 75%;
     margin: auto;
 }
-.cha
+.payImg
 {
     width: 25%;
     padding: 30px;
 }
 
+
 @media only screen and (max-width: 600px) {
-    .fath
+    .paymentImages
     {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    .cha
+    .payImg
     {
         padding: 15px;
         margin: auto;
     }
     }
 
+    /* Section four style */
+    
+.Section4_H2
+{
+    color: var(--links_color);
+}

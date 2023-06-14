@@ -37,6 +37,8 @@ body {
   line-height: 1.4;
   user-select: none;
 }
+
+/* for slider-cards space */
 .slick-slide>div {
   margin: 0 10px;
 }
@@ -44,7 +46,9 @@ body {
 .slick-list {
   margin: 0 -10px;
 }
-.F img
+
+/* for firest section imges */
+.ImgCursor img
 {
   cursor: pointer;
 }

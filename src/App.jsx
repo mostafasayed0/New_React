@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import N9dar from './components/NDAR/N9dar';
+import N9dar from './components/N9DAR/N9dar'
 
 
 

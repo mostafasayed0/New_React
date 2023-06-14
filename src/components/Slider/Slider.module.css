@@ -5,15 +5,15 @@
     margin-top: 50px;
     text-align: center;
 }
-.one
+.cardOne
 {
     background-color: var(--secondColor);
 }
-.two
+.cardTwo
 {
     background-color: var(--statisticColor);
 }
-.shad
+.cardText
 {
     background-color:var(--mainWhite);
     font-size: 1rem;
@@ -22,4 +22,5 @@
     border-radius: 98px 98px 98px 98px;
     box-shadow: -5px 6px 12px -1px rgba(0, 0, 0, 0.75);
     margin:12px ;
+    padding: 6px;
 }

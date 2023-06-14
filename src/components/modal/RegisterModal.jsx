@@ -1,8 +1,8 @@
 import React , { useState} from "react";
 import Modal from 'react-modal';
-import Styles from '../modal/Mpop.module.css'
+import Styles from '../modal/RegisterModal.module.css'
 
-function Mpop()
+function RegisterModal()
 {
 const [modalIsopen,setModalIsOpen] = useState(false)
     return(
@@ -10,7 +10,7 @@ const [modalIsopen,setModalIsOpen] = useState(false)
             <button onClick={()=> setModalIsOpen(true)}>
                 open modal
             </button>
-            <Modal isOpen={modalIsopen} onRequestClose={()=>setModalIsOpen(false)} className={Styles.one}>
+            <Modal isOpen={modalIsopen} onRequestClose={()=>setModalIsOpen(false)} className={Styles.FormStyle}>
                 <div className=" text-center mt-3">
                     <h2>Please fill out the <br /> following form to register</h2>
                 </div>
@@ -42,7 +42,7 @@ const [modalIsopen,setModalIsOpen] = useState(false)
                         <option value="ÉTUDIER">Concours ÉTUDIER EN FRANCE (1000 Dhs)</option>
                     </select>
                 <div className=" text-center">
-                    <button type="submit" className=' btn btn-outline-primary w-25 '>I am registering</button>
+                    <button type="submit" className=' btn btn-outline-primary w-50 '>I am registering</button>
                 </div>
                 
                 </form>
@@ -57,4 +57,4 @@ const [modalIsopen,setModalIsOpen] = useState(false)
     )
 
 }
-export default Mpop;
+export default RegisterModal;
