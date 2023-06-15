@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import img1 from '../../Images/11.png'
 import img2 from '../../Images/22.png'
 import img3 from '../../Images/33.png'
@@ -20,12 +20,8 @@ import InstructorSlider from '../Slider/Slider';
 import RegisterModal from '../modal/RegisterModal'
 
 
-
-
-
-
-class N9dar extends Component {
-    FirestSection=[
+function N9dar() {
+        let FirestSection=[
         {imgsrc:img1,text:'Lorem ipsum dolor sit amet.'},
         {imgsrc:img2,text:'Lorem ipsum dolor sit amet.'},
         {imgsrc:img3,text:'Lorem ipsum dolor sit amet.'},
@@ -36,27 +32,26 @@ class N9dar extends Component {
         {imgsrc:img8,text:'Lorem ipsum dolor sit amet.'},
         {imgsrc:img9,text:'Lorem ipsum dolor sit amet.'},
     ];
-    render() {
-        return (
-            <>
-    <div>
-    <RegisterModal/>
-    </div>
+    return (
+    <>
+            <div>
+            <RegisterModal/>
+            </div>
 
             <div className=' text-center py-4'>
                 <h1 className={styles.title}>N<span className={styles.H_span}>9</span>DAR <span className={styles.H_span}>CONCOURS</span></h1>
                 <h4>Intensive preparation programs for admissions</h4>
             </div>
-            <section >
+            <section>
                 <div className="container">
-                    <div className="ImgCursor row">
-                        {this.FirestSection.map((value,index)=>{
+                    <div className=" row">
+                        {FirestSection.map((value,index)=>{
                             return(
                             <div key={index} className="col-lg-4">
-                                <div className=" text-center">
+                                <div className={styles.ImgCursor}>
                                 <img  className=' w-100' src={value.imgsrc} alt="photos"/>
                                 <p className={styles.ImageParagraph}>{value.text}</p>
-                            </div>
+                                </div>
                             </div> 
                             )
                         })}
@@ -149,8 +144,9 @@ class N9dar extends Component {
                 <h2 className=' text-center py-5'>Together with us to succeed and make your dreams come true</h2>
             </section>
             </>
-        );
-    }
+    )
 }
 
 export default N9dar;
+
+

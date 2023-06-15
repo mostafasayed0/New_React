@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -8,9 +8,10 @@ import Océane from '../../Images/A4.png'
 import hind from '../../Images/A5.png'
 import styles from '../Slider/Slider.module.css'
 
-export default class InstructorSlider extends Component {
-  render() {
-    var settings = {
+
+
+function InstructorSlider() {
+      var settings = {
       dots: true,
       infinite: false,
       speed: 500,
@@ -44,8 +45,8 @@ export default class InstructorSlider extends Component {
         }
       ]
     };
-    return (
-      <>
+  return (
+        <>
     <div className={styles.card_slider}>
         <Slider {...settings}>
             <div className={styles.cardOne}>
@@ -107,6 +108,6 @@ export default class InstructorSlider extends Component {
     </div>
 
       </>
-    );
-  }
+  );
 }
+export default InstructorSlider;
