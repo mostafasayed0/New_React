@@ -8,16 +8,6 @@
     color: var(--links_color);
     font-family: var(--titleFont);
 }
-.ImageParagraph{
-    background-color: var(--offWhite);
-    padding: 3px;
-    margin-top: 5px;
-}
-
-.ImgCursor{
-    cursor: pointer;
-    text-align: center;
-}
 
 
 /*  Section two style */

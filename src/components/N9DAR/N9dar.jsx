@@ -1,13 +1,4 @@
 import React from 'react';
-import img1 from '../../Images/11.png'
-import img2 from '../../Images/22.png'
-import img3 from '../../Images/33.png'
-import img4 from '../../Images/44.png'
-import img5 from '../../Images/55.png'
-import img6 from '../../Images/66.png'
-import img7 from '../../Images/77.png'
-import img8 from '../../Images/88.png'
-import img9 from '../../Images/99.png'
 import Doctor from '../../Images/WhatsApp Image 2023-06-09 at 10.45.38 PM.jpeg'
 import CartoonImage from '../../Images/Imgaes.png'
 import paypal from '../../Images/Paypal_2014_logo.png'
@@ -21,43 +12,17 @@ import RegisterModal from '../modal/RegisterModal'
 
 
 function N9dar() {
-        let FirestSection=[
-        {imgsrc:img1,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img2,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img3,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img4,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img5,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img6,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img7,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img8,text:'Lorem ipsum dolor sit amet.'},
-        {imgsrc:img9,text:'Lorem ipsum dolor sit amet.'},
-    ];
+
     return (
     <>
-            <div>
-            <RegisterModal/>
-            </div>
-
             <div className=' text-center py-4'>
                 <h1 className={styles.title}>N<span className={styles.H_span}>9</span>DAR <span className={styles.H_span}>CONCOURS</span></h1>
                 <h4>Intensive preparation programs for admissions</h4>
             </div>
-            <section>
-                <div className="container">
-                    <div className=" row">
-                        {FirestSection.map((value,index)=>{
-                            return(
-                            <div key={index} className="col-lg-4">
-                                <div className={styles.ImgCursor}>
-                                <img  className=' w-100' src={value.imgsrc} alt="photos"/>
-                                <p className={styles.ImageParagraph}>{value.text}</p>
-                                </div>
-                            </div> 
-                            )
-                        })}
-                    </div>
-                </div>
-                </section>
+
+            <div>
+            <RegisterModal/>
+            </div>
             
             <section>
                 <div className={styles.SectionTwo}>
