@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/New_React/static/css/main.67cc186a.css",
+    "main.js": "/New_React/static/js/main.443dfa60.js",
+    "static/media/44.png": "/New_React/static/media/44.70365d9c505c1ce8b9e3.png",
+    "static/media/88.png": "/New_React/static/media/88.3750c00b9a8bcfd3e913.png",
+    "static/media/33.png": "/New_React/static/media/33.d5dfee283d77b34d4201.png",
+    "static/media/77.png": "/New_React/static/media/77.3686e7d1eaad4b4f5060.png",
+    "static/media/22.png": "/New_React/static/media/22.bff5fae033a17725a046.png",
+    "static/media/66.png": "/New_React/static/media/66.6c3a95ad2434480cd297.png",
+    "static/media/11.png": "/New_React/static/media/11.511e4cd92cf37fa4f7ba.png",
+    "static/media/A5.png": "/New_React/static/media/A5.7e103cd1d6b6c3d66070.png",
+    "static/media/A4.png": "/New_React/static/media/A4.a200940cad8d8f6d7264.png",
+    "static/media/A1.png": "/New_React/static/media/A1.1c356b1f9a5ac1e77c75.png",
+    "static/media/A2.png": "/New_React/static/media/A2.dcf52503bac66a40351b.png",
+    "static/media/55.png": "/New_React/static/media/55.de0c2dee3b1a0cb3dda7.png",
+    "static/media/99.png": "/New_React/static/media/99.b3be2cbf5c8caa2547db.png",
+    "static/media/Imgaes.png": "/New_React/static/media/Imgaes.dde047e3905ee89aa5cc.png",
+    "static/media/Paypal_2014_logo.png": "/New_React/static/media/Paypal_2014_logo.04b3edb65b438fe60d98.png",
+    "static/media/WhatsApp Image 2023-06-09 at 10.45.38 PM.jpeg": "/New_React/static/media/WhatsApp Image 2023-06-09 at 10.45.38 PM.b190986ac568e1906c60.jpeg",
+    "static/media/visa-and-mastercard-logo-26.png": "/New_React/static/media/visa-and-mastercard-logo-26.b95b27a0173c07427991.png",
+    "static/media/slick.svg": "/New_React/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/New_React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/New_React/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/New_React/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/New_React/index.html",
+    "main.67cc186a.css.map": "/New_React/static/css/main.67cc186a.css.map",
+    "main.443dfa60.js.map": "/New_React/static/js/main.443dfa60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67cc186a.css",
+    "static/js/main.443dfa60.js"
+  ]
+}
